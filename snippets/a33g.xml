@@ -33,7 +33,7 @@
   <remove-project name="platform/sdk" />
 
   <!-- Samsung MSM8916 Common Repos -->
-  <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" groups="device" remote="Gumball1506"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-16.0"/>
 
   <!-- Samsung Hardware Repo -->
