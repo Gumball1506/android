@@ -8,7 +8,7 @@
 
   <remote  name="Gumball1506"
            fetch="https://github.com"
-           revision="lineage-16.0" />
+           revision="lineage-17.x" />
 
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-x86" />
@@ -32,35 +32,35 @@
 
   <remove-project name="platform/sdk" />
 
- <!-- Samsung MSM8916 Common Repos -->
+  <!-- Samsung MSM8916 Common Repos -->
   <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-16.0"/>
 
- <!-- Samsung Hardware Repo -->
+  <!-- Samsung Hardware Repo -->
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
 
- <!-- Common Samsung MSM8916 Kernel -->
-  <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="Galaxy-MSM8916"/>
+  <!-- Kernels -->
+  <project path="kernel/samsung/msm8916" name="vlw/android_kernel_samsung_msm8916_A3" revision="master" remote="github"/>
 
- <!-- Vendor Trees (for all devices) -->
+  <!-- Vendor Trees (for all devices) -->
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
 
- <!-- Qcom audio  -->
+  <!-- Qcom audio  -->
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
   <project path="hardware/qcom/audio-caf/msm8916" name="Galaxy-MSM8916/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-8916" />
 
- <!-- TWRP -->
- <!--  <project path="bootable/recovery-twrp" name="OmniROM/android_bootable_recovery" remote="github" revision="android-9.0"/> -->
+  <!-- TWRP -->
+  <!--  <project path="bootable/recovery-twrp" name="OmniROM/android_bootable_recovery" remote="github" revision="android-9.0"/> -->
 
- <!-- Dependencies -->
- <!-- <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-8.1"/> -->
+  <!-- Dependencies -->
+  <!-- <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-8.1"/> -->
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-15.1"/>
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"/>
 
- <!-- arm-eabi-7.2 -->
+  <!-- arm-eabi-7.2 -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="Galaxy-MSM8916/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" remote="github" revision="master"/>
 
- <!-- Galaxy A3 -->
+  <!-- Galaxy A3 -->
   <project path="device/samsung/a3-common" name="Gumball1506/android_device_samsung_a3-common-1" groups="device" remote="Gumball"/>
   <project path="device/samsung/a33g" name="Gumball1506/android_device_samsung_a33g" groups="device" remote="Gumball"/>
 
