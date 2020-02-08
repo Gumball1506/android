@@ -19,7 +19,7 @@
 
     <!-- A3 series -->
     <project path="device/samsung/a3-common" name="Gumball1506/android_device_samsung_a3-common" revision="lineage-17.x" remote="github" />
-    <project path="device/samsung/a3ltexx" name="Gumball1506/android_device_samsung_a3ltexx" revision="lineage-17.x" remote="github" />
+    <project path="device/samsung/a3ltexx" name="Gumball1506/android_device_samsung_a3gg" revision="lineage-16.0" remote="github" />
 
     <!-- Kernels -->
     <project path="kernel/samsung/msm8916" name="vlw/android_kernel_samsung_msm8916_A3" revision="master" remote="github" />
