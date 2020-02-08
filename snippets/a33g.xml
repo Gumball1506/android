@@ -41,7 +41,6 @@
     <!-- Other libs -->
 	<!-- <project path="external/stlport" name="LineageOS/android_external_stlport" revision="lineage-17.1" remote="github" /> -->
 	<project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="lineage-17.1" remote="github" />
-    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"/>
     
     <!-- TWRP sources -->
     <!-- <project path="bootable/recovery" name="vlw/android_bootable_recovery" revision="android-7.0" remote="github" /> -->
