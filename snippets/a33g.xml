@@ -43,7 +43,7 @@
   <project path="kernel/samsung/msm8916" name="vlw/android_kernel_samsung_msm8916_A3" revision="master" remote="github"/>
 
   <!-- Vendor Trees (for all devices) -->
-  <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="vendor/samsung" name="Gumball1506/proprietary_vendor_samsung" groups="device" remote="Gumball1506"/>
 
   <!-- Qcom audio  -->
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
